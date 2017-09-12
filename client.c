@@ -4,6 +4,7 @@
 #include <arpa/inet.h> //inet_addr 
 #include <sys/time.h>   
 #include <stdlib.h>
+#include <unistd.h> // for close
 
 #define MAXTEST 100
 #define MESSAGESIZE 100 // in byte
